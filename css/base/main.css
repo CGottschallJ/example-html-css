@@ -1,0 +1,26 @@
+main {
+  height: auto;
+  width: 100%;
+  background-color: #fdfdfd;
+  min-height: calc(
+    100vh - 50px
+  ); /* This calculation is based on ./header.css height attribute. Only change if the header height is changed. */
+}
+
+/* === TABLET VIEW === */
+@media (min-width: 480px) and (max-width: 768px) {
+  main {
+    min-height: calc(
+      100vh - 55px
+    ); /* This calculation is based on ./header.css height attribute. Only change if the header height is changed. */
+  }
+}
+
+/* === DESKTOP VIEW === */
+@media (min-width: 768px) {
+  main {
+    min-height: calc(
+      100vh - 60px
+    ); /* This calculation is based on ./header.css height attribute. Only change if the header height is changed. */
+  }
+}
