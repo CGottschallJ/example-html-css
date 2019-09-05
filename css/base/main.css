@@ -1,5 +1,6 @@
 main {
   height: auto;
+  width: 100%;
   background-color: #fdfdfd;
   min-height: calc(
     100vh - 50px
