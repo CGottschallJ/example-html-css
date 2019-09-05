@@ -1,0 +1,22 @@
+/* === MOBILE VIEW === */
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.85em;
+  line-height: 1.15em;
+}
+
+/* === TABLET VIEW === */
+@media (min-width: 480px) and (max-width: 768px) {
+  p {
+    font-size: 0.95em;
+    line-height: 1.25em;
+  }
+}
+
+/* === DESKTOP VIEW === */
+@media (min-width: 768px) {
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
